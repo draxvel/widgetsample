@@ -1,4 +1,4 @@
-package com.vakoms.widgetsample
+package com.tkachuk.widgetsample
 
 import android.annotation.TargetApi
 import android.app.PendingIntent
@@ -11,8 +11,6 @@ import android.os.Bundle
 import android.support.annotation.RequiresApi
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
-import android.content.ComponentName
-
 
 
 class MainActivity : AppCompatActivity() {

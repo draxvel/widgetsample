@@ -1,4 +1,4 @@
-package com.vakoms.widgetsample
+package com.tkachuk.widgetsample
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
