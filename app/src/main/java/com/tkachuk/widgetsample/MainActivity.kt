@@ -49,19 +49,19 @@ class MainActivity : AppCompatActivity() {
 //                Toast.makeText(this, "isRequestPinAppWidgetSupported", Toast.LENGTH_SHORT).show()
 //                mAppWidgetManager.requestPinAppWidget(myProvider, null, null)
 //            }
-             Toast.makeText(this, "send broadcast", Toast.LENGTH_SHORT).show()
-
-            val intent = Intent()
-            intent.action = "com.android.launcher3.action.AUTOADDWIDGET"
-
-            //where to sent
-            intent.component = ComponentName("com.android.launcher3", "com.android.launcher3.AutoAddWidgetReceiver")
-
-            //wich widget to sent
-            intent.putExtra("packageName", "com.tkachuk.widgetsample")
-            intent.putExtra("className", "com.tkachuk.widgetsample.NewAppWidget")
-
-            sendBroadcast(intent)
+//             Toast.makeText(this, "send broadcast", Toast.LENGTH_SHORT).show()
+//
+//            val intent = Intent()
+//            intent.action = "com.android.launcher3.action.AUTOADDWIDGET"
+//
+//            //where to sent
+//            intent.component = ComponentName("com.android.launcher3", "com.android.launcher3.AutoAddWidgetReceiver")
+//
+//            //wich widget to sent
+//            intent.putExtra("packageName", "com.tkachuk.widgetsample")
+//            intent.putExtra("className", "com.tkachuk.widgetsample.NewAppWidget")
+//
+//            sendBroadcast(intent)
         }
     }
 }
